@@ -9,7 +9,7 @@ logger = logging.getLogger("KoreAgents")
 
 # --- LLM CONFIG ---
 llm = LLM(
-    model="gemini/gemini-2.5-flash-lite",
+    model="gemini/gemini-1.5-flash",
     api_key=os.getenv("GOOGLE_API_KEY"),
     temperature=0.1 # Low temp for factual accuracy
 )
